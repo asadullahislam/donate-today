@@ -109,20 +109,28 @@ h1{
 }
 .es{
     text-align: center;
+    border-radius: 5px;
+    
     
 }
 #subscribe{
     background-color: red;
+    border-radius: 5px;
 }
 #humble{
     color:tomato;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:cursive
 }
 footer{
     text-align: center;
     background-color:gray;
     
 }
+#es-back{
+    background-color: blanchedalmond;
+    
+}
+
 
 
 
