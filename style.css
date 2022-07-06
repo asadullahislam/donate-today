@@ -4,6 +4,7 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 h1{
     font-size: 60px;
+    
 }
 #header{
     padding:50px;
@@ -15,10 +16,60 @@ h1{
 
 }
 .link-button{
-    text-decoration: none;
+    text-decoration:none;
     background-image: linear-gradient(orange,tomato);
     color:white;
     padding:10px 20px;
     font-weight: 700px;
     border-radius: 5px;
 }
+#header-2{
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+
+.flexible{
+    display: flex;
+    margin-bottom: 150px;
+
+}
+.half-width{
+    width:50%;
+    padding-left: 5%;
+    ;
+}
+.half-width img{
+    width:100%;
+
+}
+.updates{
+    text-align: center;
+}
+.es{
+    text-align: center;
+    
+}
+#subscribe{
+    background-color: red;
+}
+#humble{
+    color:tomato;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+footer{
+    text-align: center;
+    background-color:gray;
+    
+}
+#es-back{
+    background-color: coral;
+
+
+}
+
+
+
+
