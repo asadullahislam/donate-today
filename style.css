@@ -1,3 +1,24 @@
+body{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+}
 h1{
-    color:rebeccapurple;
+    font-size: 60px;
+}
+#header{
+    padding:50px;
+    background: url(dan.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color:white;
+    text-align: center;
+
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    color:white;
+    padding:10px 20px;
+    font-weight: 700px;
+    border-radius: 5px;
 }
