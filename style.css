@@ -34,14 +34,17 @@ h1{
     border-bottom: 7px;
 }
 
-.buttons{
-    width: 700 ;
-    padding: 5px 10px;
+.buttons button{
+    width:120px;
+    height: 80px;
+    font-size: 20px;
     text-align: center;
+    font-weight: 600px;
 }
-.button{
-    border: 3px solid tomato;
-    
+
+#two-tk{
+    border:2px solid red;
+    background-color:aquamarine;
 }
 
 
@@ -104,18 +107,30 @@ h1{
     width:100%;
 
 }
+#get{
+    color:red;
+}
 .updates{
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .es{
     text-align: center;
     border-radius: 5px;
+    height: 40px;
+    width: 250px;
+    
     
     
 }
 #subscribe{
     background-color: red;
     border-radius: 5px;
+    height: 40px;
+    width: 150px;
 }
 #humble{
     color:tomato;
@@ -127,8 +142,28 @@ footer{
     
 }
 #es-back{
-    background-color: blanchedalmond;
+    border:0px;
+    border-radius:0px;
+    height: 200px;
+    width: 700px;
+    background-color: cornsilk;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
     
+    
+
+    
+    
+
+hr{
+    width: 50%;
+    line-height: normal;
+    border-left: 0px;
 }
 
 
