@@ -8,11 +8,12 @@ h1{
 }
 #header{
     padding:50px;
-    background: url(dan.jpg);
+    background-image:  linear-gradient(0deg, rgba(9,9,9,0.9625209947260154) 0%, rgba(249,253,254,0.01014004234506305) 100%),url(dan.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     color:white;
     text-align: center;
+    min-height: 70vh;
     
 
 }
@@ -46,6 +47,32 @@ h1{
     border:2px solid red;
     background-color:aquamarine;
 }
+
+
+
+.donate-amount{
+    text-align: center;
+    
+}
+
+#tk{
+    color: green;
+}
+
+.dolar{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+
+}
+.dolar div{
+    margin:15px;
+}
+
+
+
+
 
 
 .header-3{
